@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Static site example'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'gatsby-static-site-example',
+        short_name: 'Static site',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#03A9F4',
+        theme_color: '#03A9F4',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
-      },
+        icon: 'src/images/icon.png'
+      }
     },
-    'gatsby-plugin-offline',
-  ],
+    'gatsby-plugin-offline'
+  ]
 }
